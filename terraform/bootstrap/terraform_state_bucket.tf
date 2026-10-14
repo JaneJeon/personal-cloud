@@ -1,6 +1,6 @@
+# This variable is injected from the terragrunt.hcl 'input' of the same name.
 variable "terraform_state_bucket_name" {
-  type    = string
-  default = "jane-terraform-state"
+  type = string
 }
 
 resource "google_storage_bucket" "terraform_state" {

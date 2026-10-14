@@ -156,6 +156,9 @@ vite.config.ts.timestamp-*
 *.tfstate
 *.tfstate.*
 
+# Local terragrunt directories
+.terragrunt-cache/
+
 # Crash log files
 crash.log
 crash.*.log
